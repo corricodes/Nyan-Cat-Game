@@ -9,7 +9,7 @@ h2 {
     text-align: center;
 }
 
-.dino {
+.cat {
     position: absolute;
     width: 150px;
     height: 150px;
@@ -47,7 +47,7 @@ h2 {
     }
 }
 
-#desert {
+#space {
     position: absolute;
     bottom: 0px;
     background-image: url(/images/nyan-cat-backgrounds.jpg);

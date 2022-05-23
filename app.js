@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const dino = document.querySelector(".dino");
+  const cat = document.querySelector(".cat");
   const grid = document.querySelector(".grid");
   const body = document.querySelector("body");
   const alert = document.getElementById("alert");
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
           position -= 5;
           count--;
           position = position * gravity;
-          dino.style.bottom = position + "px";
+          cat.style.bottom = position + "px";
         }, 20);
       }
 
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       position += 30;
       count++;
       position = position * gravity;
-      dino.style.bottom = position + "px";
+      cat.style.bottom = position + "px";
     }, 20);
   }
 
