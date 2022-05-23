@@ -1,5 +1,5 @@
-<h1 align="center">T-Rex Run Game</h1>
-<h3 align="center">A practice project with JavaScript from Code with Ania Kubów.</h3>
+<h1 align="center">Nyan-Cat Game</h1>
+<h3 align="center">An adaptation of T-Rex Run using JavaScript from Code with Ania Kubów.</h3>
 
 - 🔭 I’m currently working on **creating more projects using JavaScript to add to my porfolio.**
 
