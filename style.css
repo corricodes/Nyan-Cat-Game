@@ -1,12 +1,16 @@
 body {
     background-color: rgb(0, 52, 102);
+    font-family: 'Notable', sans-serif;
+    color: rgb(255, 171, 241);
 }
 
 h2 {
-    color: rgb(255, 171, 241);
-    font-family: 'Notable', sans-serif;
     font-size: 6rem;
     text-align: center;
+}
+
+.game-over {
+    visibility: hidden;
 }
 
 .cat {

@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const grid = document.querySelector(".grid");
   const body = document.querySelector("body");
   const alert = document.getElementById("alert");
+  const alertInfo = document.getElementById("alert-info");
   let isJumping = false;
   let gravity = 0.9;
   let isGameOver = false;
@@ -56,6 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
       if (obstactlePosition > 0 && obstactlePosition < 60 && position < 60) {
         clearInterval(timerId);
         alert.innerHTML = "Game Over";
+        alertInfo.innerHTML = "Refresh to start over";
+        document.querySelector(".game-title").classList.add("game-over");
         isGameOver = true;
 
         // remove all children
